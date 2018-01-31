@@ -9,6 +9,7 @@ public class JumpController {
 
 	@RequestMapping("test.do")
 	public String jumpTest(){
+               System.out.println("test");
 		return "test";
 	}
 }
